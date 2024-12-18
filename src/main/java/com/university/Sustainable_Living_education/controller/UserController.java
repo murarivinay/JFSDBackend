@@ -10,7 +10,7 @@ import com.university.Sustainable_Living_education.model.User;
 import com.university.Sustainable_Living_education.repository.UserRepository;
 
 @RestController
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin
 public class UserController {
 
     @Autowired

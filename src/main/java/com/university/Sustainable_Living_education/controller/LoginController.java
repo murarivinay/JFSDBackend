@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")  // Allow requests from frontend
+@CrossOrigin
 public class LoginController {
 
     @Autowired

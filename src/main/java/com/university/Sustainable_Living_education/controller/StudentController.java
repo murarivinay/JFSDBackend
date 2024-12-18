@@ -13,7 +13,7 @@ import com.university.Sustainable_Living_education.model.Student;
 import com.university.Sustainable_Living_education.repository.StudentRepository;
 
 @RestController
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin
 public class StudentController {
 
     @Autowired
